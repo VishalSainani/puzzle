@@ -605,7 +605,7 @@ puzzle::solve(const std::vector<int>& vals)
 		return;
 	}
 
-	std::vector<char> a(500, 'X');
+	std::vector<char> a(100000, 'X');
 	int k = -1;
 	backtrack(a, k);
 }
